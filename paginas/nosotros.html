@@ -12,10 +12,12 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/style_prod.css" />
+    <link rel="stylesheet" href="../css/style_nosotros.css" />
     <title>La Gallina</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="contenedor">
         <h1 id="titulo">La Gallina</h1>
         <nav>
@@ -30,15 +32,23 @@
       </div>
     </header>
 
-    <section class="parallax">
-      <h2 class="title">Sobre Nosotros</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-        incidunt labore temporibus libero quas sint earum harum exercitationem.
-        In laborum exercitationem vel aliquid reprehenderit harum rem iste qui.
-        Corporis, vel!
-      </p>
-    </section>
+    <div class="wrapper">
+      <div class="product-img">
+        <img src="../media/huevo-organico.webp" height="420" width="327" />
+      </div>
+      <div class="product-info">
+        <div class="product-text">
+          <h1>Sobre Nosotros</h1>
+          <p>
+            Somos una granja avícola de gallinas ponedoras donde garantizamos un
+            huevo 100% campesino y natural, respetamos la integridad de las
+            gallinas y rechazamos el uso de jaulas e iluminación artificial para
+            la explotación de las mismas.
+          </p>
+          <span id="slogan">No producimos Huevos, cuidamos gallinas</span>
+        </div>
+      </div>
+    </div>
     <footer class="footer">
       <div class="redes">
         <ul>
