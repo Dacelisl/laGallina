@@ -23,7 +23,7 @@ body{
   width: 100%;
   height: 210px;
   border: 1px solid black;
-  background-image: url(/media/log_gallinas.jpg);
+  background-image: url(../media/log_gallinas.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
