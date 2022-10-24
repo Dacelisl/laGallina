@@ -6,6 +6,9 @@ html {
   position: relative;
   background-color: #ffffff;
 }
+/* *, ::after, ::before {
+  box-sizing: unset;
+} */
 p{
   text-align: justify;
 }
@@ -14,6 +17,15 @@ a{
 }
 body{
   display: contents;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
 /* contenedor imagen principal */
 .contenedor {
@@ -123,27 +135,6 @@ div.contenedor_productos img.derecha {
   height: 100px;
 }
 
-
-
-/* estilos nosotros */
-.parallax {
-  background-image: url("../media/granja.jpg");
-  height: 100%;
-  width: 90%;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 50px 40px;
-}
-.parallax p {
-  font-size: 2rem;
-  text-align: justify;
-  background-color: #ffffff14;
-  text-transform: capitalize;
-  padding: 10px;
-}
-
 /* estilos footer */
 footer {
   height: 50px;
@@ -158,6 +149,7 @@ footer {
 }
 footer p{
   text-align: center;
+  margin-top: revert;
 }
 
 /* estilos redes  */
