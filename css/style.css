@@ -1,9 +1,9 @@
 /* generales */
 html {
   font-family: "Roboto", sans-serif;
-  width: 100%;
-  min-height: 100%;
-  position: relative;
+  /* width: 100%;
+  min-height: 100%; */
+  /* position: relative; */
   background-color: #ffffff;
 }
 /* *, ::after, ::before {
@@ -15,9 +15,9 @@ p{
 a{
   text-decoration: none;
 }
-body{
+/* body{
   display: contents;
-}
+} */
 h1 {
   display: block;
   font-size: 2em;
@@ -78,8 +78,10 @@ h2 {
   color: #000000;
 }
 #img_huevo {
-  display: block;
-  margin: auto;
+  height: 30%;
+    width: 100%;
+    display: block;
+    margin: 20px auto;
 }
 .content {
   width: 100%;
@@ -213,5 +215,57 @@ footer p{
 .footer{
   grid-area: pie;
 }
+/* lista */
+.list {
+  column-count: 2;
+}
+.item {
+  display: flex;
+  align-items: baseline;
+  counter-increment: list;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+}
+.item:before {
+  content: counter(list);
+  width: 4rem;
+  height: 4rem;
+  margin: 0 1.5rem 0.75rem 0;
+  color: #fdfdfd;
+  background:linear-gradient(to bottom right, #a5bf4e 25%, #283618);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 3px;
+}
+@media (max-width: 547px) {
+  .contenedor_principal{
+  grid-template-columns: 0.4fr 1fr 1fr 1fr 0.4fr ;
+  grid-template-rows:  0.2fr 1.5fr 0.4fr 0.4fr 0.4fr 0.2fr 0.1fr ;
+  grid-template-areas:
+  "nav nav nav nav nav"
+  ". art art art ."
+  ". corral corral corral ."
+  ". piso piso piso."
+  ". libre libre libre ."
+  ". art2 art2 art2 ."
+  "pie pie pie pie pie ";
+}
+.corral, .aire , .piso {
+    display: inherit;
+    
+}
+.corral img, .aire img, .piso img{
+  height: 100%;
+    width: auto;
+    display: flex;
+    margin: auto;
+}
+.list {
+  column-count: unset;
+}
+  
+  }
 
 
