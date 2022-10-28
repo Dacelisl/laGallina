@@ -1,23 +1,14 @@
 /* generales */
 html {
   font-family: "Roboto", sans-serif;
-  /* width: 100%;
-  min-height: 100%; */
-  /* position: relative; */
   background-color: #ffffff;
 }
-/* *, ::after, ::before {
-  box-sizing: unset;
-} */
 p{
   text-align: justify;
 }
 a{
   text-decoration: none;
 }
-/* body{
-  display: contents;
-} */
 h1 {
   display: block;
   font-size: 2em;
@@ -108,11 +99,6 @@ iframe {
   height: -webkit-fill-available;
   width: auto;
 }
-
-/* estilos lista */
-
-
-
 
 /* estilos Blog */
 .contenedor_productos {

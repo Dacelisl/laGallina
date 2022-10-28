@@ -31,7 +31,6 @@
 .container-fluid {
   z-index: 1000;
 }
-
 .card {
   height: 420px;
   width: 90%;
@@ -106,8 +105,8 @@
   .card-title{
     padding-top: 0px;
     text-align: center;
+    margin-right: 15%;
   }
-
   .product-info {
     display: contents;
   }
