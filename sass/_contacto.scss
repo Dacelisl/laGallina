@@ -1,0 +1,24 @@
+/* contacto */
+.content {
+    width: 100%;
+    display: flex;
+  }
+  .left {
+    display: inline-block;
+    position: relative;
+    float: left;
+    height: auto;
+  }
+  
+  .right {
+    display: inline-block;
+    position: relative;
+    float: left;
+    width: 45%;
+    height: auto;
+    margin-left: 5px;
+  }
+  iframe {
+    height: -webkit-fill-available;
+    width: auto;
+  }

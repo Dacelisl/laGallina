@@ -1,0 +1,22 @@
+/* estilos Blog */
+.contenedor_productos {
+    width: 90%;
+    height: 100px;
+    margin: 20px auto;
+    background-color: #c9cda9;
+    color: #fff;
+    padding: 20px;
+    img.izquierda {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 10px;
+    }
+    img.derecha {
+      float: right;
+      margin-left: 15px;
+    }
+    img {
+      width: 150px;
+      height: 100px;
+    }
+  }
