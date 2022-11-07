@@ -11,62 +11,156 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/style_prod.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
     <title>La Gallina</title>
   </head>
   <body>
     <header class="header">
       <div class="contenedor">
         <h1 id="titulo">La Gallina</h1>
-        <nav>
-          <ul class="menuItems">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNosotros"
+              aria-controls="navbarNosotros"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNosotros">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
-    <h2 class="titulo">Blog</h2>
-    <section>
-      <section>
-        <div class="contenedor_productos">
-          <img class="izquierda" src="../media/organico.jpg" />
-          <aside>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-            laborum fuga doloremque porro! Provident praesentium dolor in quia
-            assumenda necessitatibus doloribus eos aut aliquid ipsam voluptate
-            animi, quo placeat possimus.
-          </aside>
-        </div>
+    <h2 class="titulo">Cronicas Del Gallinero</h2>
 
-        <div class="contenedor_productos">
-          <img class="derecha" src="../media/Huevo tradicional.webp" />
-          <aside>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quasi
-            voluptatem atque! Quis consequatur architecto quaerat, officiis
-            cupiditate fugit voluptatibus eligendi facere repudiandae quod amet
-            obcaecati esse maiores quas voluptas.
-          </aside>
+    <div class="contenedorBlog container-fluid mb-5">
+      <div class="row gx-0">
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <img
+              src="../media/huevos_ecologicos.webp"
+              class="card-img-top"
+              alt="huevo organico"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                ¿En qué se diferencian los huevos camperos de los ecológicos?
+              </h5>
+              <p class="card-text">
+                El huevo es un alimento muy utilizado en la cocina, y que además
+                de poder cocinarse de muchas maneras y realizar platos muy
+                variados, es una fuente de nutrientes muy importante. Sin
+                embargo, cuando vamos a comprarlos y vemos la gran cantidad de
+                opciones que tenemos, es posible que nos preguntemos en qué se
+                diferencian. [...]
+              </p>
+              <p class="card-text">
+                <small class="text-muted">21 SEPTIEMBRE 2022</small>
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div class="contenedor_productos">
-          <img
-            class="izquierda"
-            src="../media/que-es-la-gallinaza-propiedades.jpg"
-          />
-          <aside>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem
-            odit molestias cumque repudiandae omnis rem soluta eius? Esse,
-            quidem. Velit exercitationem, sint error ullam voluptatem et porro
-            asperiores eos voluptate!
-          </aside>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <img
+              src="../media/alimentos-gallinas.jpg"
+              class="card-img-top"
+              alt="gallina alimentada"
+            />
+            <div class="card-body">
+              <h5 class="card-title">
+                Día Mundial de la Alimentación: ¿Pueden las gallinas ayudar a
+                paliar el hambre?
+              </h5>
+              <p class="card-text">
+                Cada 16 de octubre se celebra internacionalmente el Día Mundial
+                de la Alimentación, una conmemoración impulsada por la FAO cuyo
+                propósito es disminuir el hambre en el mundo, todo ello
+                encuadrado en la Agenda 2030 [...]
+              </p>
+              <p class="card-text">
+                <small class="text-muted">1 OCTUBRE 2022</small>
+              </p>
+            </div>
+          </div>
         </div>
-      </section>
-    </section>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <img
+              src="../media/gallinas-libres.jpg"
+              class="card-img-top"
+              alt="gallinas al aire libre"
+            />
+            <div class="card-body">
+              <h5 class="card-title">¿Qué es un producto ecológico?</h5>
+              <p class="card-text">
+                Apostar por una alimentación saludable y respetuosa con el
+                medioambiente no es una moda, sino un estilo de vida. Los
+                alimentos ecológicos, conocidos también bajo el nombre de
+                orgánicos o biológicos, están cada vez más presentes en la cesta
+                de la compra de ciudadanos de todo el mundo. [...]
+              </p>
+              <p class="card-text">
+                <small class="text-muted">3 ENERO 2022</small>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <img
+              src="../media/clasificacion-huevos.png"
+              class="card-img-top"
+              alt="clasificacion de huevos"
+            />
+            <div class="card-body">
+              <h5 class="card-title">¿Huevo A, AA, Jumbo...? ¿Cómo así?</h5>
+              <p class="card-text">
+                Muchas veces nuestros clientes no saben qué responder cuando les
+                preguntamos si desean adquirir huevos tipo B, A, AA, AAA o
+                Jumbo. Es algo muy sencillo, con esto solo nos referimos al
+                tamaño del huevo. [...]
+              </p>
+              <p class="card-text">
+                <small class="text-muted">9 ABRIL 2022</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <footer class="footer">
       <div class="redes">
         <ul>

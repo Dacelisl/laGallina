@@ -58,93 +58,104 @@
         </nav>
       </div>
     </header>
-    <h2 class="titulo">Contactenos</h2>
-    <!-- <section>
-      <div class="content">
-        <div class="left">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam,
-            ipsam. Aut mollitia quos quidem unde iusto ea. Impedit repudiandae
-            nulla accusantium beatae dicta, reiciendis, cumque laudantium unde
-            sed est iusto.
-          </p>
-          <article>
-            <form action="#">
-              <fieldset>
-                <legend>Aqui van tus Datos:</legend>
-
-                <label for="nombreApellido">Nombre y Apellido:</label>
-                <input type="text" name="nombreApellido" />
-                <br />
-                <label for="correo">Correo electronico:</label>
-                <input type="email" name="correo" />
-                <br />
-                <label for="comentarios">Tus Comentarios</label>
-                <textarea name="comentarios" cols="30" rows="10"></textarea>
-                <button type="submit">Enviar</button>
-              </fieldset>
-            </form>
-          </article>
+    <h2>Contacto</h2>
+    <div class="container">
+      <div class="row">
+        <!-- formulario -->
+        <div class="col-md-9 mb-5">
+          <form>
+            <div class="mb-3">
+              <label for="nombreCompleto" class="form-label"
+                >Nombres y Apellidos</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="nombreCompleto"
+                aria-describedby="nombreCompletoHelp"
+                required
+              />
+              <div id="nombreCompletoHelp" class="form-text">
+                Ejemplo: Juan Diaz Rojas
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                aria-describedby="emailHelp"
+                required
+              />
+              <div id="emailHelp" class="form-text">
+                Ejemplo: miemail@mail.com
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="asunto" class="form-label">Asunto</label>
+              <input
+                type="text"
+                class="form-control"
+                id="asunto"
+                aria-describedby="asuntoHelp"
+                required
+              />
+              <div id="asuntoHelp" class="form-text">
+                Ejemplo: Solicitud de Compra
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label"
+                >Mensaje</label
+              >
+              <textarea
+                class="form-control"
+                id="mensaje"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+          </form>
         </div>
-        <div class="right">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914.467983480243!2d-74.81561945!3d4.294349799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f293e719583dd%3A0x3481282c69e3d78e!2sCentro%20Girardot!5e0!3m2!1ses-419!2sco!4v1664406881545!5m2!1ses-419!2sco"
-            width="400"
-            height="300"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <!-- Datos de Contacto -->
+        <div class="contacto col-md-3">
+          <h4 class="mb-4">Datos de Contacto</h4>
+          <div class="mb-3">
+            <img
+              src="../media/house-door-fill.svg"
+              alt="Dirección"
+              width="32"
+              height="32"
+            />
+            KM 51 VEREDA JORDAN, Fusagasugá, Cundinamarca
+          </div>
+          <div class="mb-3">
+            <img
+              src="../media/telephone-forward-fill.svg"
+              alt="Teléfono"
+              width="32"
+              height="32"
+            />
+            +573136528471 | +573135528472
+          </div>
+          <div class="mb-3">
+            <img src="../media/envelope-fill.svg" alt="Email" width="32" height="32" />
+            sios@gmail.com
+          </div>
         </div>
       </div>
-    </section> -->
-    <div class="container-fluid ">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="col-4">
-            <div class="left">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Aliquam, ipsam. Aut mollitia quos quidem unde iusto ea. Impedit
-                repudiandae nulla accusantium beatae dicta, reiciendis, cumque
-                laudantium unde sed est iusto.
-              </p>
-              <article>
-                <form action="#">
-                  <fieldset>
-                    <legend>Aqui van tus Datos:</legend>
-
-                    <label for="nombreApellido">Nombre y Apellido:</label>
-                    <input type="text" name="nombreApellido" />
-                    <br />
-                    <label for="correo">Correo electronico:</label>
-                    <input type="email" name="correo" />
-                    <br />
-                    <label for="comentarios">Tus Comentarios</label>
-                    <textarea name="comentarios" cols="30" rows="10"></textarea>
-                    <button type="submit">Enviar</button>
-                  </fieldset>
-                </form>
-              </article>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="col-4">
-            <div class="right">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15914.467983480243!2d-74.81561945!3d4.294349799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f293e719583dd%3A0x3481282c69e3d78e!2sCentro%20Girardot!5e0!3m2!1ses-419!2sco!4v1664406881545!5m2!1ses-419!2sco"
-                width="400"
-                height="300"
-                style="border: 0"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
-          </div>
-        </div>
+    </div>
+    <div class="mapaContacto row mt-4  mb-3">
+      <div class="ratio ratio-21x9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d63652.17889581476!2d-74.38991142425212!3d4.362054972163256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d4.3624829!2d-74.3543775!4m5!1s0x8e3f055f2e456b3f%3A0x1a0ce3fccdf83291!2sKM%2051%20VEREDA%20JORDAN%2C%20Fusagasug%C3%A1%2C%20Cundinamarca!3m2!1d4.3619702!2d-74.35489179999999!5e0!3m2!1ses-419!2sco!4v1667754954186!5m2!1ses-419!2sco"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </div>
     </div>
 

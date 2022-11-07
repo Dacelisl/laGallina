@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/main.css" />
     <title>La Gallina</title>
   </head>
@@ -18,20 +22,101 @@
     <header class="header">
       <div class="contenedor">
         <h1 id="titulo">La Gallina</h1>
-        <nav>
-          <ul class="menuItems">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-          </ul>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNosotros"
+              aria-controls="navbarNosotros"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNosotros">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
-  <h2 class="titulo">Productos</h2>
+    <h2 class="titulo">Nuestros Productos</h2>
 
-  <section class="grid_productos">
+    <div class="contenedorBlog container-fluid mb-5">
+      <div class="row gx-0">
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img
+              src="../media/huevoTradicional.webp"
+              class="card-img-top"
+              alt="huevo organico"
+            />
+            <div class="card-body">
+              <h5 class="card-title">HUEVO ORGANICO</h5>
+              <p class="card-text">
+                Proveniente de gallinas alimentadas orgánicamente y 100% libres
+                de antibióticos y químicos avícolas.
+              </p>
+              <button type="submit" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img
+              src="../media/organico.jpg"
+              class="card-img-top"
+              alt="gallina alimentada"
+            />
+            <div class="card-body">
+              <h5 class="card-title">HUEVO TRADICIONAL</h5>
+              <p class="card-text">
+                Huevo de la mejor calidad. Consistentes, frescos y con el mejor
+                sabor.
+              </p>
+              <button type="submit" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card">
+            <img
+              src="../media/abono_organico.jpg"
+              class="card-img-top"
+              alt="gallinas al aire libre"
+            />
+            <div class="card-body">
+              <h5 class="card-title">GALLINAZA</h5>
+              <p class="card-text">
+                El fertilizante perfecto para las tierras. Contiene los
+                nutrientes ideales para toda clase de suelo.
+              </p>
+              <button type="submit" class="btn btn-primary">Comprar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <section class="grid_productos">
     <div class="card_productos" id="b">
       <h2 class="titulo_productos">Huevo Tipo B</h2>
       <div class="content_producto">
@@ -72,8 +157,13 @@
         </p>
       </div>
     </div>
-  </section>
-    
+  </section> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
     <footer class="footer">
       <div class="redes">
         <ul>

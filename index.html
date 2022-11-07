@@ -15,6 +15,10 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <title>La Gallina</title>
   </head>
@@ -67,7 +71,7 @@
       </header>
       <section class="art_principal">
         <article>
-          <h2>Huevos Organicos</h2>
+          <h2>¿Qué es un huevo orgánico?</h2>
 
           <img
             id="img_huevo"
@@ -75,24 +79,37 @@
             alt="huevo organico imagen"
           />
           <p>
-            Este es el contenido principal de mi web. Lorem ipsum, dolor sit
-            amet consectetur adipisicing elit. Magni labore doloribus enim
-            necessitatibus, optio ad nam omnis dolore in dolores id atque saepe
-            tempora quisquam animi, aliquid recusandae esse laudantium.
+            Un huevo se considera orgánico si la gallina que lo produce fue
+            alimentada con fuentes orgánicas, es decir libre de alimentos
+            modificados genéticamente o transgénicos, libre de productos
+            químicos o que no haya acumulado altos niveles de pesticidas por
+            medio del alimento, tampoco podrán ser hormonadas para favorecer su
+            crecimiento
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            magnam quisquam nobis minus excepturi dignissimos blanditiis ratione
-            esse voluptas omnis consequuntur, accusamus veritatis incidunt
-            laborum numquam perferendis non beatae iste quo ex porro consequatur
-            aperiam magni earum. Vero voluptatum porro delectus aut modi. Ipsam
-            provident eos, atque aliquid modi fugiat iure nostrum quos
-            laboriosam in, obcaecati dolores pariatur laborum fugit illo aut
-            odio nemo quaerat sequi. Dolore aspernatur est eius ex vitae error
-            nisi voluptate a possimus repellendus delectus eveniet, voluptatem
-            laudantium ea sint, veniam blanditiis laborum vero fugiat nihil!
-            Dolorem voluptatem distinctio pariatur atque facere rem at dolor
-            soluta.
+            El espacio para criar estas gallinas no puede ser en jaulas y debe
+            estar en espacios al aire libre
+          </p>
+          <h3>¿Qué es un huevo normal?</h3>
+          <p>
+            Estos huevos son los que normalmente encontramos en las grandes
+            cadenas de supermercados y tiendas. Son huevos donde las gallinas
+            que los ponen pasan su corta vida encerradas en jaulas, amontonadas
+            y corriendo el riesgo de contraer enfermedades por el hacinamiento,
+            por lo tanto, son tratadas con antibióticos y son hormonadas para
+            favorecer su crecimiento.
+          </p>
+          <p>El principal objetivo de este tipo de huevo es la producción.</p>
+          <p>
+            Varias pruebas han demostrado que los beneficios de los huevos
+            orgánicos son muchos y empiezan por el hecho de que son más
+            nutritivos que los huevos de gallinas criadas comercialmente.
+          </p>
+          <p>
+            Un estudio realizado por Mother Earth News, comparó la Tabla de
+            Nutrientes del Departamento de Agricultura de los Estados Unidos
+            (USDA) de los huevos comerciales con los huevos de gallinas criadas
+            al aire libre y encontró que este último contiene típicamente:
           </p>
         </article>
         <ol class="list">
@@ -103,8 +120,9 @@
           <li class="item">3 veces más vitamina E</li>
           <li class="item">7 veces más beta-caroteno</li>
         </ol>
+        <p>Estas son algunas de las categorias segun su peso:</p>
       </section>
-      <section class="corral">
+      <section class="hPequeno">
         <img src="media/huevo_pequeño.jpg" alt="huevo pequeño" />
         <p>
           Los huevos de grado B tienen claras menos espesas y yemas que podrían
@@ -116,7 +134,7 @@
         </p>
         <p>Peso: 46,0g a 52,9g</p>
       </section>
-      <section class="piso">
+      <section class="hMediano">
         <img src="media/huevo_mediano.jpg" alt="huevo mediano" />
         <p>
           Los huevos de grado A tienen características similares a los huevos de
@@ -125,7 +143,7 @@
         </p>
         <p>Peso: 53,0g a 59,9g</p>
       </section>
-      <section class="aire">
+      <section class="hGrande">
         <img src="media/huevo_grande.jpg" alt="huevo grande" />
         <p>
           Los huevos de grado AA tienen claras firmes y espesas. Las yemas son
@@ -136,16 +154,89 @@
         </p>
         <p>Peso: 60,0g a 66,9g</p>
       </section>
-
       <aside class="art2">
         <h3>Testimonios</h3>
-        <p>Me gusta mucho esta página.</p>
+        <div
+          id="carruselReferencias"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="quote-section">
+                <p>
+                  <i class="bi bi-quote"></i> Nuestra empresa ha sido cliente de
+                  Maneki por más de 2 años y la experiencia ha sido excelente.
+                  El personal siempre es cortés y profesional. Las llamadas y
+                  visitas por parte de nuestros clientes son tratadas de una
+                  manera amable y eficiente. Recomiendo sus servicios.
+                </p>
+              </div>
+              <div class="autor-section">
+                <p><i class="bi bi-person"></i> Pablo López</p>
+                <p>CEO & Co-founder - Ipixels</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="quote-section">
+                <p>
+                  <i class="bi bi-quote"></i> Visitè la granja antes de realizar
+                  la compra y pude ver que sì cumplen con las condiciones para
+                  ser huevos organicos, las gallinas estan al aire libre sin hacinamiento 
+                </p>
+              </div>
+              <div class="autor-section">
+                <p><i class="bi bi-person"></i> Luis Molina</p>
+                <p>Hacienda Colonial</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="quote-section">
+                <p>
+                  <i class="bi bi-quote"></i> Compre la gallinaza y es un
+                  Exelente producto, calidad a un precio justo
+                </p>
+              </div>
+              <div class="autor-section">
+                <p><i class="bi bi-person"></i> Dora Martinez</p>
+                <p>Hacienda La Gloria</p>
+              </div>
+            </div>
+          </div>
+          <div class="botones">
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carruselReferencias"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carruselReferencias"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
       </aside>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"
       ></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
       <footer class="footer">
         <div class="redes">
           <ul>

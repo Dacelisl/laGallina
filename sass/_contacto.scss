@@ -1,24 +1,27 @@
 /* contacto */
-.content {
-    width: 100%;
-    display: flex;
+  form{
+    font-size: xx-large;
+    .btn{
+      display: flex;
+      width: 30%;
+      font-size: xx-large;
+      background-color: #4caf50e0;
+      justify-content: center;
+      margin: auto
+    }
   }
-  .left {
-    display: inline-block;
-    position: relative;
-    float: left;
-    height: auto;
+  .contacto{
+    font-size: xx-large;
   }
-  
-  .right {
-    display: inline-block;
-    position: relative;
-    float: left;
-    width: 45%;
-    height: auto;
-    margin-left: 5px;
-  }
-  iframe {
+  .mapaContacto {
     height: -webkit-fill-available;
-    width: auto;
+    width: 100%;
+  }
+  @media (max-width: 1200px) {
+    .col-md-9 {
+      width: 100%;
+  }
+    .col-md-3 {
+      width: 40%;
+  }
   }

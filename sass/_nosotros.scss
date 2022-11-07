@@ -3,14 +3,15 @@
 $alto:700px;
 
 .navbar {
-  height: 47px;
+  height: 60px;
   padding: 0;
 }
 .navbar-nav {
   margin: auto;
   a {
     color: #000000;
-    font-size: 20px;
+    font-size: 2em;
+    font-weight: 400;
     padding: 0;
     text-transform: uppercase;
   }
@@ -33,10 +34,10 @@ $alto:700px;
 }
 .container-fluid {
   z-index: 1000;
+  display: flex;
 }
 .card {
   height: auto;
-  /* width: 90%; */
   width: 90%;
   top: 5%;
   margin: 40px auto 100px;
@@ -58,7 +59,7 @@ $alto:700px;
   width: 50%;
   padding-left: 0px;
 }
-.card-title {
+.tituloNosotros {
   margin: 0 0 15px 38px;
   padding-top: 20px;
   font-size: xxx-large;
@@ -88,6 +89,14 @@ $alto:700px;
 @media (min-width: 768px) {
   .col-md-8 {
     width: auto;
+  }
+}
+@media (max-width: 1120px) {
+  .navbar-nav {
+    a {
+      font-size: 1.5em;
+      font-weight: 500;
+    }
   }
 }
 
@@ -125,7 +134,7 @@ $alto:700px;
       height: 100%;
     }
   }
-  .card-title {
+  .tituloNosotros {
     padding-top: 0px;
     text-align: center;
     margin-right: 15%;
