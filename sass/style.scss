@@ -8,6 +8,7 @@
   align-items: center;
 }
 $medio: calc(100% / 2);
+$boton: #4caf50e0;
 
 /* contenedor imagen principal */
 .contenedor {
@@ -99,11 +100,14 @@ h5 {
   display: flex;
   width: 30%;
   font-size: xx-large;
-  background-color: #4caf50e0;
+  background-color: $boton;
   justify-content: center;
   margin: auto;
   &:hover {
-    background-color: #4caf50e0;
+    background-color: $boton;
+  }
+  &:active {
+    background-color: $boton;
   }
   &:first-child:active {
     background-color: #4caf4f76;
@@ -154,7 +158,7 @@ section {
 .hPequeno img,
 .hGrande img,
 .hMediano img {
-  height: 20vh;
+  height: 40vh;
   width: auto;
   display: flex;
   margin: auto;

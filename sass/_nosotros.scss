@@ -92,6 +92,12 @@ $alto:700px;
   }
 }
 @media (max-width: 1120px) {
+  .col-md-6{
+    width: auto;
+  }
+  .col-md-4{
+    width: auto;
+  }
   .navbar-nav {
     a {
       font-size: 1.5em;
@@ -101,6 +107,7 @@ $alto:700px;
 }
 
 @media (max-width: 991px) {
+  
   .card {
     top: 1%;
   }

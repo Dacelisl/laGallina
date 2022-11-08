@@ -112,6 +112,10 @@ h1 {
     width: auto; } }
 
 @media (max-width: 1120px) {
+  .col-md-6 {
+    width: auto; }
+  .col-md-4 {
+    width: auto; }
   .navbar-nav a {
     font-size: 1.5em;
     font-weight: 500; } }
@@ -274,6 +278,8 @@ h5 {
   margin: auto; }
   .btn:hover {
     background-color: #4caf50e0; }
+  .btn:active {
+    background-color: #4caf50e0; }
   .btn:first-child:active {
     background-color: #4caf4f76; }
 
@@ -319,7 +325,7 @@ section p {
 .hPequeno img,
 .hGrande img,
 .hMediano img {
-  height: 20vh;
+  height: 40vh;
   width: auto;
   display: flex;
   margin: auto; }
