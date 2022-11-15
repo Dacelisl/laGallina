@@ -1,13 +1,14 @@
 @import "reset";
 @import "nosotros";
-@import "contacto";
 @import "blog";
+@import "contacto";
 
 @mixin crear-flex {
   display: flex;
   align-items: center;
 }
 $medio: calc(100% / 2);
+$texto: 1.5rem;
 $boton: #4caf50e0;
 
 /* contenedor imagen principal */
@@ -77,29 +78,30 @@ h2 {
   text-align: center;
   margin-top: 3%;
   font-style: normal;
-  font-size: 3.5em;
+  font-size: $texto *2.5;
   color: #000000;
 }
 h3 {
-  font-size: 3rem;
+  font-size: $texto *2;
   font-weight: 300;
   font-style: italic;
   padding-top: 60px;
   padding-bottom: 20px;
 }
 h4 {
-  font-size: 2.5rem;
+  font-size: $texto * 1.5;
 }
 h5 {
   text-align: justify;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: $texto * 1.7;
   color: #474747;
 }
 .btn {
   display: flex;
   width: 30%;
-  font-size: xx-large;
+  font-size: $texto;
   background-color: $boton;
   justify-content: center;
   margin: auto;
@@ -115,12 +117,12 @@ h5 {
 }
 article {
   p {
-    font-size: 2.5em;
+    font-size: $texto;
   }
 }
 section {
   p {
-    font-size: 2.5em;
+    font-size: $texto;
   }
 }
 #img_huevo {
@@ -140,7 +142,7 @@ section {
   @include crear-flex;
   counter-increment: list;
   padding-bottom: 1rem;
-  font-size: 2.5em;
+  font-size: $texto;
   &:before {
     content: counter(list);
     width: 4rem;
@@ -173,12 +175,12 @@ section {
   border-radius: 30px;
   background: #b59672e0;
   p {
-    font-size: xx-large;
+    font-size: $texto;
     color: #fff;
   }
   i {
     padding: 0px 15px 0px 15px;
-    font-size: xxx-large;
+    font-size: $texto *2;
   }
 }
 .autor-section {
@@ -190,7 +192,7 @@ section {
   padding: 5px;
   p {
     color: #fff;
-    font-size: xx-large;
+    font-size: $texto;
     text-align: center;
     line-height: 1em;
   }
@@ -221,7 +223,7 @@ footer {
   p {
     text-align: center;
     margin-top: 2vh;
-    font-size: 2em;
+    font-size: $texto;
   }
 }
 /* estilos redes  */

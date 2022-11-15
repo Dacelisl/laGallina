@@ -1,6 +1,7 @@
 /* NOSOTROS */
 /* modificando estilos de Bootstrap */
 $alto:700px;
+$texto: 1.5rem;
 
 .navbar {
   height: 60px;
@@ -10,7 +11,7 @@ $alto:700px;
   margin: auto;
   a {
     color: #000000;
-    font-size: 2em;
+    font-size: $texto + .5;
     font-weight: 400;
     padding: 0;
     text-transform: uppercase;
@@ -20,10 +21,10 @@ $alto:700px;
   margin: 13px 30px;
 }
 .collapsing {
-  background-color: #f1c57ebf;
+  background-color: #fff4ca;
 }
 .show {
-  background-color: #f1c57ebf;
+  background-color: #fff4ca;
 }
 .navbar > .container-fluid {
   display: initial;
@@ -62,7 +63,7 @@ $alto:700px;
 .tituloNosotros {
   margin: 0 0 15px 38px;
   padding-top: 20px;
-  font-size: xxx-large;
+  font-size: $texto * 1.5 ;
   text-transform: uppercase;
   text-align: center;
   color: #474747;
@@ -71,13 +72,13 @@ $alto:700px;
   width: 100%;
   color: #8d8d8d;
   line-height: 1.3em;
-  font-size: xx-large;
+  font-size: $texto + .5;
   font-weight: 300;
   margin-bottom: 2em;
   overflow: hidden;
 }
 .slogan {
-  font-size: x-large;
+  font-size: $texto;
   font-weight: 500;
   text-transform: uppercase;
   color: #b1aba0;
@@ -100,7 +101,7 @@ $alto:700px;
   }
   .navbar-nav {
     a {
-      font-size: 1.5em;
+      font-size: $texto;
       font-weight: 500;
     }
   }
@@ -145,14 +146,14 @@ $alto:700px;
     padding-top: 0px;
     text-align: center;
     margin-right: 15%;
-    font-size: xx-large;
+    font-size: $texto + .5;
   }
   .info-text {
-    font-size: x-large;
+    font-size: $texto;
     margin-bottom: 1em;
   }
   .slogan {
-    font-size: large;
+    font-size: $texto;
     line-height: 1em;
   }
 }

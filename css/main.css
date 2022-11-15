@@ -33,7 +33,7 @@ h1 {
   margin: auto; }
   .navbar-nav a {
     color: #000000;
-    font-size: 2em;
+    font-size: 2rem;
     font-weight: 400;
     padding: 0;
     text-transform: uppercase; }
@@ -42,10 +42,10 @@ h1 {
   margin: 13px 30px; }
 
 .collapsing {
-  background-color: #f1c57ebf; }
+  background-color: #fff4ca; }
 
 .show {
-  background-color: #f1c57ebf; }
+  background-color: #fff4ca; }
 
 .navbar > .container-fluid {
   display: initial; }
@@ -83,7 +83,7 @@ h1 {
 .tituloNosotros {
   margin: 0 0 15px 38px;
   padding-top: 20px;
-  font-size: xxx-large;
+  font-size: 2.25rem;
   text-transform: uppercase;
   text-align: center;
   color: #474747; }
@@ -92,13 +92,13 @@ h1 {
   width: 100%;
   color: #8d8d8d;
   line-height: 1.3em;
-  font-size: xx-large;
+  font-size: 2rem;
   font-weight: 300;
   margin-bottom: 2em;
   overflow: hidden; }
 
 .slogan {
-  font-size: x-large;
+  font-size: 1.5rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #b1aba0;
@@ -117,7 +117,7 @@ h1 {
   .col-md-4 {
     width: auto; }
   .navbar-nav a {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 500; } }
 
 @media (max-width: 991px) {
@@ -150,27 +150,41 @@ h1 {
     padding-top: 0px;
     text-align: center;
     margin-right: 15%;
-    font-size: xx-large; }
+    font-size: 2rem; }
   .info-text {
-    font-size: x-large;
+    font-size: 1.5rem;
     margin-bottom: 1em; }
   .slogan {
-    font-size: large;
+    font-size: 1.5rem;
     line-height: 1em; } }
+
+/* estilos blog y productos  */
+.productos {
+  height: auto;
+  margin-bottom: 40px; }
+  .productos .productos-card {
+    height: 90%; }
+  .productos .productos-img {
+    height: auto;
+    padding-bottom: 15px; }
+  .productos .productos-body {
+    display: grid; }
+    .productos .productos-body .card-text {
+      font-size: 2rem; }
 
 /* contacto */
 form {
-  font-size: xx-large; }
+  font-size: 2rem; }
   form .btn {
     display: flex;
     width: 30%;
-    font-size: xx-large;
+    font-size: 2rem;
     background-color: #4caf50e0;
     justify-content: center;
     margin: auto; }
 
 .contacto {
-  font-size: xx-large; }
+  font-size: 2rem; }
 
 .mapaContacto {
   height: -webkit-fill-available;
@@ -180,14 +194,8 @@ form {
   .col-md-9 {
     width: 100%; }
   .col-md-3 {
-    width: 40%; } }
-
-/* estilos Blog */
-.contenedorBlog {
-  display: flex; }
-
-.card-text {
-  font-size: 2rem; }
+    width: 40%;
+    margin: auto; } }
 
 /* contenedor imagen principal */
 .contenedor {
@@ -250,7 +258,7 @@ h2 {
   text-align: center;
   margin-top: 3%;
   font-style: normal;
-  font-size: 3.5em;
+  font-size: 3.75rem;
   color: #000000; }
 
 h3 {
@@ -261,18 +269,19 @@ h3 {
   padding-bottom: 20px; }
 
 h4 {
-  font-size: 2.5rem; }
+  font-size: 2.25rem; }
 
 h5 {
   text-align: justify;
-  font-weight: 600;
-  font-size: 2rem;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 2.55rem;
   color: #474747; }
 
 .btn {
   display: flex;
   width: 30%;
-  font-size: xx-large;
+  font-size: 1.5rem;
   background-color: #4caf50e0;
   justify-content: center;
   margin: auto; }
@@ -284,10 +293,10 @@ h5 {
     background-color: #4caf4f76; }
 
 article p {
-  font-size: 2.5em; }
+  font-size: 1.5rem; }
 
 section p {
-  font-size: 2.5em; }
+  font-size: 1.5rem; }
 
 #img_huevo {
   height: 25%;
@@ -307,7 +316,7 @@ section p {
   align-items: center;
   counter-increment: list;
   padding-bottom: 1rem;
-  font-size: 2.5em; }
+  font-size: 1.5rem; }
   .item:before {
     content: counter(list);
     width: 4rem;
@@ -340,11 +349,11 @@ section p {
   border-radius: 30px;
   background: #b59672e0; }
   .quote-section p {
-    font-size: xx-large;
+    font-size: 1.5rem;
     color: #fff; }
   .quote-section i {
     padding: 0px 15px 0px 15px;
-    font-size: xxx-large; }
+    font-size: 3rem; }
 
 .autor-section {
   width: 30%;
@@ -355,7 +364,7 @@ section p {
   padding: 5px; }
   .autor-section p {
     color: #fff;
-    font-size: xx-large;
+    font-size: 1.5rem;
     text-align: center;
     line-height: 1em; }
 
@@ -383,7 +392,7 @@ footer {
   footer p {
     text-align: center;
     margin-top: 2vh;
-    font-size: 2em; }
+    font-size: 1.5rem; }
 
 /* estilos redes  */
 .redes {

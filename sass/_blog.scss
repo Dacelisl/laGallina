@@ -1,8 +1,20 @@
-/* estilos Blog */
-.contenedorBlog {
-    display: flex;
-  }
-  .card-text{
-    font-size: 2rem;
+/* estilos blog y productos  */
 
+$texto: 1.5rem;
+.productos{
+  height: auto;
+  margin-bottom: 40px;
+  .productos-card{
+    height: 90%;
   }
+  .productos-img{
+    height: auto;
+    padding-bottom: 15px;
+  }
+  .productos-body{
+    display: grid;
+    .card-text{
+      font-size: $texto + .5;
+    }
+  }
+}

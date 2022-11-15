@@ -1,17 +1,18 @@
 /* contacto */
+$texto: 1.5rem;
   form{
-    font-size: xx-large;
+    font-size: $texto + .5;
     .btn{
       display: flex;
       width: 30%;
-      font-size: xx-large;
+      font-size:  $texto + .5;
       background-color: #4caf50e0;
       justify-content: center;
       margin: auto
     }
   }
   .contacto{
-    font-size: xx-large;
+    font-size: $texto + .5;
   }
   .mapaContacto {
     height: -webkit-fill-available;
@@ -23,5 +24,6 @@
   }
     .col-md-3 {
       width: 40%;
+      margin: auto;
   }
   }
