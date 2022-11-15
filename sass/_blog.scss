@@ -14,7 +14,7 @@ $texto: 1.5rem;
   .productos-body{
     display: grid;
     .card-text{
-      font-size: $texto + .5;
+      font-size: $texto;
     }
   }
 }
